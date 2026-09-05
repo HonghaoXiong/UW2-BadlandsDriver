@@ -1,5 +1,7 @@
 # UW2-BadlandsDriver — 在 Underworld2 里原生直调 Badlands
 
+[English](README_EN.md) | **中文**
+
 > 单文件 [`badlands_driver.py`](badlands_driver.py)：把 Badlands 作为**同进程 Python 库**
 > 直接挂进 Underworld2（UW2）模型，不经 UWGeodynamics 的 `surfaceProcesses.Badlands`
 > 封装。零第三方依赖（underworld2 环境自带 numpy/scipy）。
